@@ -50,7 +50,7 @@ function Track({ track, choir }) {
           className="align-middle"
           title="Download Track"
         >
-          <img src="/download.png" className="inline-block"></img>
+          <img src="/download.svg" className="inline-block w-6 h-6"></img>
         </a>
       </td>
     </tr>
