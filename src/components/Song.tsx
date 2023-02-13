@@ -16,28 +16,41 @@ function Track({ track, choir }) {
 
   return (
     <tr>
-      <td>
+      <td className="text-center">
         <input
+          className="align-middle w-5 h-5 inline-block"
           type="checkbox"
           checked={enabled}
           onChange={handleEnable}
+          title="Enable Track"
         ></input>
       </td>
-      <td>{track.name}</td>
+      <td>
+        <span className="align-middle" title="Track Name">
+          {track.name}
+        </span>
+      </td>
       <td>
         <input
-          className="w-full"
+          className="w-full align-middle"
           type="range"
           min="0"
-          max="12"
+          max="14"
+          step="0.1"
           value={volume}
           onChange={handleVolume}
           disabled={!enabled}
+          title="Track Volume"
         ></input>
       </td>
-      <td>
-        <a href={track.audio} target="_blank">
-          <img src="/download.png"></img>
+      <td className="text-center">
+        <a
+          href={track.audio}
+          target="_blank"
+          className="align-middle"
+          title="Download Track"
+        >
+          <img src="/download.png" className="inline-block"></img>
         </a>
       </td>
     </tr>
