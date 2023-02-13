@@ -114,6 +114,7 @@ export default class Song extends Component {
             className="grow"
             type="range"
             value={this.state.pos}
+            min="1"
             max={this.choir.totalBars}
             onInput={(e) => {
               this.choir.bar = e.target.value;

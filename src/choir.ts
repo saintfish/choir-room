@@ -76,11 +76,12 @@ class Choir {
     tone.start();
     if (tone.Transport.state != "started") {
       tone.Transport.start();
-      if (this.onState) {
-        this.progressCallbackId = setInterval(() => {
-          if (this.onState) this.onState();
-        }, 16);
-      }
+      this.progressCallbackId = setInterval(() => {
+        if (this.onState) this.onState();
+        if (tone.Transport.seconds >= this.duration) {
+          this.stop();
+        }
+      }, 16);
     }
   }
 
