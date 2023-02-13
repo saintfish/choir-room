@@ -1,0 +1,12 @@
+songs:
+  - id: what-sorrow-is-this
+    name: What sorrow is what
+    bpm: 100
+    measure: 3
+    tracks:
+      - name: Soprano
+        audio: soprano.m4a
+      - name: Alto
+        audio: alto.m4a
+      - name: Baritone
+        audio: baritone.m4a

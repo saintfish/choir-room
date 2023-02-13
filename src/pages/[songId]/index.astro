@@ -1,0 +1,21 @@
+---
+import songList from "@root/songs.yml";
+
+export function getStaticPaths() {
+  return songList.songs.map((song) => [
+    {
+      params: { songId: song.id },
+      props: { song },
+    },
+  ]);
+}
+
+const { song } = Astro.props;
+
+import Base from "@layouts/Base.astro";
+import Song from "@components/Song.jsx";
+---
+
+<Base title={song.name}>
+  <Song song={song} client:only="react" />
+</Base>
