@@ -122,7 +122,6 @@ export default class Song extends Component {
             }}
           ></input>
         </div>
-        <h2>Tracks</h2>
         <table className="border-separate border-spacing-y-5">
           {this.song.tracks.map((track) => (
             <Track key={track.name} track={track} choir={this.choir} />
