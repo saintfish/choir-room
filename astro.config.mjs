@@ -13,7 +13,17 @@ import compress from "astro-compress";
 // https://astro.build/config
 export default defineConfig({
   vite: {
-    plugins: [yaml()]
+    plugins: [yaml()],
   },
-  integrations: [react(), tailwind(), compress()]
+  integrations: [
+    react(),
+    tailwind(),
+    compress({
+      js: {
+        format: {
+          comments: false,
+        },
+      },
+    }),
+  ],
 });
