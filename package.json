@@ -7,8 +7,7 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro",
-		"deploy": "gh-pages -d dist"
+		"astro": "astro"
 	},
 	"dependencies": {
 		"@astrojs/react": "^2.0.2",
@@ -22,7 +21,6 @@
 		"tone": "^14.7.77"
 	},
 	"devDependencies": {
-		"@rollup/plugin-yaml": "^4.0.1",
-		"gh-pages": "^5.0.0"
+		"@rollup/plugin-yaml": "^4.0.1"
 	}
 }
