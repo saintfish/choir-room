@@ -57,7 +57,7 @@ class Choir {
 
   private load() {
     this.song.tracks.forEach((track) => {
-      const player = new tone.Player(`/${this.song.id}/${track.audio}`, () => {
+      const player = new tone.Player(track.audio, () => {
         if (player.buffer.duration > this.duration) {
           this.duration = player.buffer.duration;
         }

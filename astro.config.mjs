@@ -9,8 +9,10 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://saintfish.github.io/",
+  base: "/choir-room",
   vite: {
-    plugins: [yaml()]
+    plugins: [yaml()],
   },
-  integrations: [react(), tailwind()]
+  integrations: [react(), tailwind()],
 });
