@@ -8,9 +8,12 @@ import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
+import compress from "astro-compress";
+
+// https://astro.build/config
 export default defineConfig({
   vite: {
-    plugins: [yaml()],
+    plugins: [yaml()]
   },
-  integrations: [react(), tailwind()],
+  integrations: [react(), tailwind(), compress()]
 });
