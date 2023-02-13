@@ -17,5 +17,8 @@ import Song from "@components/Song";
 ---
 
 <Base title={song.name}>
+  <div class="pb-3">
+    <a href="/">&#10094; Home</a>
+  </div>
   <Song song={song} client:only="react" />
 </Base>

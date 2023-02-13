@@ -122,7 +122,6 @@ export default class Song extends Component {
             <Track key={track.name} track={track} choir={this.choir} />
           ))}
         </table>
-        <a href="/">&#10094; Home</a>
       </div>
     );
   }
