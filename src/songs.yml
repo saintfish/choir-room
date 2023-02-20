@@ -23,3 +23,16 @@ songs:
         audio: tenor.m4a
       - name: Bass
         audio: bass.m4a
+  - id: easter-is-here
+    name: 救主復活
+    bpm: 188
+    measure: 6
+    tracks:
+      - name: Soprano
+        audio: soprano.m4a
+      - name: Alto
+        audio: alto.m4a
+      - name: Tenor
+        audio: tenor.m4a
+      - name: Bass
+        audio: bass.m4a
