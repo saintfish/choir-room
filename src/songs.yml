@@ -36,3 +36,12 @@ songs:
         audio: tenor.m4a
       - name: Bass
         audio: bass.m4a
+  - id: 主，我愿像你
+    name: 主，我愿像你
+    bpm: 172
+    measure: 6
+    tracks:
+      - name: Soprano
+        audio: 主，我愿像你 1.m4a
+      - name: Alto
+        audio: 主，我愿像你 2.m4a
