@@ -36,12 +36,18 @@ songs:
         audio: tenor.m4a
       - name: Bass
         audio: bass.m4a
-  - id: 主，我愿像你
-    name: 主，我愿像你
-    bpm: 172
+  - id: heaven-came-down-and-glory-filled-my-soul
+    name: 天上榮耀充滿我的心靈
+    bpm: 110
     measure: 6
     tracks:
+      - name: Metronome
+        audio: metronome.m4a
       - name: Soprano
-        audio: 主，我愿像你 1.m4a
+        audio: soprano.m4a
       - name: Alto
-        audio: 主，我愿像你 2.m4a
+        audio: alto.m4a
+      - name: Tenor
+        audio: tenor.m4a
+      - name: Bass
+        audio: bass.m4a
