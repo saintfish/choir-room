@@ -56,13 +56,16 @@ class Choir {
   }
 
   private load() {
+    const merge = new tone.Channel();
+    const comp = new tone.Compressor(-20, 8);
+    merge.chain(comp, tone.Destination);
     this.song.tracks.forEach((track) => {
       const player = new tone.Player(track.audio, () => {
         if (player.buffer.duration > this.duration) {
           this.duration = player.buffer.duration;
         }
         player.sync().start(0);
-        player.toDestination();
+        player.connect(merge);
         this.numLoaded++;
         if (this.onState) this.onState();
       });
@@ -73,7 +76,6 @@ class Choir {
   }
 
   public play() {
-    tone.start();
     if (tone.Transport.state != "started") {
       tone.Transport.start();
       this.progressCallbackId = setInterval(() => {
