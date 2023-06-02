@@ -51,3 +51,18 @@ songs:
         audio: tenor.m4a
       - name: Bass
         audio: bass.m4a
+  - id: whatever-they-do-prospers
+    name: 凡他所做的盡都順利
+    bpm: 71
+    measure: 2
+    tracks:
+      - name: Metronome
+        audio: metronome.m4a
+      - name: Solo
+        audio: solo.m4a
+      - name: Soprano
+        audio: soprano.m4a
+      - name: Alto
+        audio: alto.m4a
+      - name: Baritone
+        audio: baritone.m4a

@@ -4,7 +4,7 @@ import songList from "@root/songs.yml";
 
 <ul>
   {
-    songList.songs.reverse().map((song) => (
+    [...songList.songs].reverse().map((song) => (
       <>
         <li class="p-3">
           <a class="p-1 hover:bg-sky-500 hover:text-white" href={song.id + "/"}>
