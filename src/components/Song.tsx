@@ -1,5 +1,6 @@
 import React, { Component, useState } from "react";
 import Choir from "@root/choir";
+import * as tone from "tone";
 
 function Track({ track, choir }) {
   const [enabled, setEnabled] = React.useState(choir.trackEnabled(track.name));
@@ -86,11 +87,13 @@ export default class Song extends Component {
   }
 
   togglePlay() {
-    if (!this.choir.isPlaying) {
-      this.choir.play();
-    } else {
-      this.choir.pause();
-    }
+    tone.start().then(() => {
+      if (!this.choir.isPlaying) {
+        this.choir.play();
+      } else {
+        this.choir.pause();
+      }
+    });
   }
 
   stop() {
