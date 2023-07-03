@@ -66,3 +66,18 @@ songs:
         audio: alto.m4a
       - name: Baritone
         audio: baritone.m4a
+  - id: 成為我異象-榮耀你名-榮耀歸於你全能的神
+    name: 成為我異象 榮耀你名 榮耀歸於你全能的神
+    bpm: 78
+    measure: 1
+    tracks:
+      - name: Metronome
+        audio: metronome.mp3
+      - name: Soprano
+        audio: soprano.mp3
+      - name: Alto
+        audio: alto.mp3
+      - name: Tenor
+        audio: tenor.mp3
+      - name: Bass
+        audio: bass.mp3
