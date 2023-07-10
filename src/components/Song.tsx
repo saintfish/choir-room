@@ -102,7 +102,7 @@ export default class Song extends Component {
 
   render() {
     if (!this.state.loaded) {
-      return "Loading...";
+      return "努力加載中...";
     }
     return (
       <div className="flex flex-col gap-2">
@@ -113,7 +113,7 @@ export default class Song extends Component {
               this.togglePlay();
             }}
           >
-            {this.choir.isPlaying ? "Pause" : "Play"}
+            {this.choir.isPlaying ? "暫停" : "播放"}
           </button>
           <button
             className="py-1 px-3 border border-black"
@@ -121,11 +121,11 @@ export default class Song extends Component {
               this.stop();
             }}
           >
-            Stop
+            停止
           </button>
         </div>
         <div className="flex gap-1">
-          <label>Measure: {this.state.pos}</label>
+          <label>小節: {this.state.pos}</label>
           <input
             className="grow"
             type="range"
@@ -139,6 +139,14 @@ export default class Song extends Component {
           ></input>
         </div>
         <table className="border-separate border-spacing-y-5">
+          <thead>
+            <tr>
+              <th>開/関</th>
+              <th className="text-left">音軌</th>
+              <th className="text-left">音量</th>
+              <th>下載</th>
+            </tr>
+          </thead>
           {this.song.tracks.map((track) => (
             <Track key={track.name} track={track} choir={this.choir} />
           ))}
