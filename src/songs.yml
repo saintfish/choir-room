@@ -73,6 +73,8 @@ songs:
     tracks:
       - name: Metronome
         audio: metronome.mp3
+      - name: Drum
+        audio: drum.mp3
       - name: Soprano
         audio: soprano.mp3
       - name: Alto
