@@ -2,12 +2,12 @@
 import songList from "@root/songs.yml";
 
 export function getStaticPaths() {
-  return songList.songs.map((song) => [
+  return songList.songs.map((song) => (
     {
       params: { songId: song.id },
       props: { song },
-    },
-  ]);
+    }
+  ));
 }
 
 const { song } = Astro.props;
