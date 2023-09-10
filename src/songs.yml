@@ -83,3 +83,18 @@ songs:
         audio: tenor.mp3
       - name: Bass
         audio: bass.mp3
+  - id: and-can-it-be
+    name: And Can It Be
+    bpm: 108
+    measure: 4
+    tracks:
+      - name: Metronome
+        audio: metronome.mp3
+      - name: Soprano
+        audio: soprano.mp3
+      - name: Alto
+        audio: alto.mp3
+      - name: Tenor
+        audio: tenor.mp3
+      - name: Bass
+        audio: bass.mp3
