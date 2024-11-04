@@ -98,3 +98,14 @@ songs:
         audio: tenor.mp3
       - name: Bass
         audio: bass.mp3
+  - id: light-of-the-star-come-thou-long-expected-jesus
+    name: Light of the Star with Come, Thou Long-expected Jesus
+    bpm: 84
+    measure: 1
+    tracks:
+      - name: Piano
+        audio: piano.mp3
+      - name: Female Voice
+        audio: female.mp3
+      - name: Male Voice
+        audio: male.mp3
