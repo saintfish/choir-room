@@ -109,3 +109,20 @@ songs:
         audio: female.mp3
       - name: Male Voice
         audio: male.mp3
+  - id: carols-of-worship-and-praise
+    name: Carols of Worship and Praise
+    bpm: 116
+    measure: 1
+    tracks:
+      - name: Piano
+        audio: piano.mp3
+      - name: Congregation
+        audio: congregation.mp3
+      - name: Soprano
+        audio: soprano.mp3
+      - name: Alto
+        audio: alto.mp3
+      - name: Tenor
+        audio: tenor.mp3
+      - name: Bass
+        audio: bass.mp3
