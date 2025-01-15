@@ -137,3 +137,5 @@ songs:
         audio: Violin.mp3
       - name: Vocal
         audio: Vocal.mp3
+      - name: Piano
+        audio: Piano.mp3
