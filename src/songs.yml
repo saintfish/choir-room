@@ -126,3 +126,14 @@ songs:
         audio: tenor.mp3
       - name: Bass
         audio: bass.mp3
+  - id: only-jesus
+    name: 唯獨耶穌 Only Jesus 
+    bpm: 125
+    measure: 4
+    tracks:
+      - name: Metronome
+        audio: Metronome.mp3
+      - name: Violin
+        audio: Violin.mp3
+      - name: Vocal
+        audio: Vocal.mp3
