@@ -135,7 +135,11 @@ songs:
         audio: Metronome.mp3
       - name: Violin
         audio: Violin.mp3
-      - name: Vocal
-        audio: Vocal.mp3
+      - name: Soprano
+        audio: Soprano.mp3
+      - name: Alto
+        audio: Alto.mp3
+      - name: Bass
+        audio: Bass.mp3
       - name: Piano
         audio: Piano.mp3
