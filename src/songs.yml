@@ -127,7 +127,7 @@ songs:
       - name: Bass
         audio: bass.mp3
   - id: only-jesus
-    name: 唯獨耶穌 Only Jesus 
+    name: 唯獨耶穌 Only Jesus
     bpm: 125
     measure: 4
     tracks:
@@ -143,3 +143,18 @@ songs:
         audio: Bass.mp3
       - name: Piano
         audio: Piano.mp3
+  - id: what-can-i-give-you
+    name: 我拿什么献给你
+    bpm: 82
+    measure: 4
+    tracks:
+      - name: Soprano Solo
+        audio: soprano solo.mp3
+      - name: Tenor Solo
+        audio: tenor solo.mp3
+      - name: Female Choir
+        audio: female choir.mp3
+      - name: Male Choir
+        audio: male choir.mp3
+      - name: Piano
+        audio: piano.mp3
