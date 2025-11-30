@@ -156,5 +156,13 @@ songs:
         audio: female choir.mp3
       - name: Male Choir
         audio: male choir.mp3
+      - name: Soprano Solo (Piano)
+        audio: piano soprano solo.mp3
+      - name: Tenor Solo (Piano)
+        audio: piano tenor solo.mp3
+      - name: Female Choir (Piano)
+        audio: piano female choir.mp3
+      - name: Male Choir (Piano)
+        audio: piano male choir.mp3
       - name: Piano
         audio: piano.mp3
