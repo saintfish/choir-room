@@ -166,3 +166,16 @@ songs:
         audio: piano male choir.mp3
       - name: Piano
         audio: piano.mp3
+  - id: o-calvary-s-lamb
+    name: O Calvary's Lamb
+    bpm: 63
+    measure: 4
+    tracks:
+      - name: Click
+        audio: Click.mp3
+      - name: Soprano
+        audio: Soprano.mp3
+      - name: Alto
+        audio: Alto.mp3
+      - name: Bass
+        audio: Bass.mp3
