@@ -67,4 +67,4 @@ Example `songs.yml` entry:
 
 The `public/` directory stores song tracks as audio files (typically `.m4a` or `.mp3`). Each song is grouped into its own subfolder, named by the song's ID (e.g., `public/agnus-dei`, `public/what-sorrow-is-this`). Inside these folders, individual stem tracks (e.g., Soprano, Alto, Tenor, Bass, Piano, Metronome, etc.) are kept as separate files. Tone.js fetches these direct paths relative to the domain (e.g., `/agnus-dei/soprano.m4a`) to synthesize the song interactively.
 
-See `Gemini.md` for extended guidelines and workflows for developing this application.
+See `GEMINI.md` for extended guidelines and workflows for developing this application.
